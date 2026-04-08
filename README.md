@@ -1,10 +1,12 @@
 # Housing-Transactions&Crime-Correlation-England&Wales-2025
 
-**An end-to-end Power BI dashboard analyzing the correlation between UK housing valuations and localized crime rates (2025).**
+**An end-to-end Power BI dashboard analyzing the correlation between UK housing valuations and localized crime rates (2025)**
 
+<!-- 
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
-![Data Modeling](https://img.shields.io/badge/Data_Modeling-005C8A?style=for-the-badge)
+![Data Modeling](https://img.shields.io/badge/Data_Modeling-005C8A?style=for-the-badge) 
+-->
 
 ---
 
@@ -12,9 +14,8 @@
 This project bridges the gap between macro-economic real estate trends and micro-level neighborhood safety. By ingesting, modeling, and visualizing public records from HM Land Registry and the UK Home Office, this application provides a dual-lens view of the UK property market: **Financial Valuation** and **Geospatial Risk Assessment**.
 
 ### 📸 Dashboard Previews
-*(Upload your screenshots to GitHub and put their links here!)*
-* **Page 1:** [Link to your Page1_Housing.png] 
-* **Page 2:** [Link to your Page2_Crime.png]
+* **Page 1:** ![Housing Prices](Images/Housing%20Prices.png) 
+* **Page 2:** ![Crime Rates](Images/Crime%20Rates.png)
 
 ---
 
@@ -45,8 +46,8 @@ This project bridges the gap between macro-economic real estate trends and micro
 
 ## 🔗 Data Lineage & Compliance
 All datasets utilized in this report are provided under the Open Government Licence v3.0.
-* **Housing Market Data:** HM Land Registry *(Standard and additional price paid transactions, Jan 1 – Dec 31, 2025)*
-* **Crime & Policing Data:** UK Home Office *(data.police.uk)*
-* **Geospatial Boundaries:** ONS Open Geography Portal
+* **Housing Market Data:** [HM Land Registry](https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads)
+* **Crime & Policing Data:** [Crime & Policing Data](https://data.police.uk/)
+* **Geospatial Boundaries:** [ONS Open Geography Portal](https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads)
 
 *(Contains HM Land Registry data © Crown copyright and database right 2021).*
